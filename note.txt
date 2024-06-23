@@ -1,0 +1,44 @@
+1. make a new folder ✅
+
+2. create a file with name 'index.ts'  ✅
+
+3. open terminal and run 'npm init' ✅
+
+4. just keep pressing enter button we will name it later when package.json file is created. ✅
+
+5. install inquirer by running 'npm i inquirer' in terminal ✅
+
+6. create tsconfig.json file by running 'tsc --init' in terminal ✅
+
+7. modify some setting in 'tsconfig.json' file ✅
+    => at line 14 change to "target": "es2022"
+    => at line 28 change to "module": "NodeNext"
+    => at line 30 uncomment and change to "moduleResolution": "NodeNext"
+
+8. open 'package.json' file and add "type": "module", ✅
+
+9. open terminal and run 'npm i --save-dev @types/inquirer' ✅
+
+10. open index.ts file and write => import inquirer from 'inquirer' ✅
+
+11. write your project code ✅
+
+12. at line 1 of index.ts file write '#! /usr/bin/env node' ✅
+ 
+13. open package.json file and add "bin": "index.js", ✅
+
+14. make name of your project unqiue ✅
+
+15. open terminal and run your file 'tsc' ✅
+
+16. Go to npm website and make your account and sign in ✅
+     (how to make npm account link is in Video Description)
+
+17. open VS Code termainal and run 'npm login' ✅
+
+18. open terminal and run 'npm publish' ✅
+
+19. You can also push/publish this project on GitHub (Video link is in Description) ✅
+
+your project will successfully published now you can check it:
+open terminal within other folder and run 'npx your-project-name' and see your project is it working or not!
